@@ -86,4 +86,4 @@ The response will look something like this:
 }
 ```
 
-Always check [the references](/api/) for the full details on any request or response.
+Always check [the references](/api/index.md) for the full details on any request or response.

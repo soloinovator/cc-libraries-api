@@ -36,7 +36,7 @@ We assume general familiarity with Libraries, and the element creation process.
 | [1] | array index |
 | .* | all properties in object |
 | [*] | all indexes in array |
-| .{a, b, c, d} | a specific set of possible properties |
+| .\{a, b, c, d\} | a specific set of possible properties |
 | [*]\(property=value\) | a selector; all objects in the array where property=value |
 
 ## Validation and Type Coercion
@@ -184,7 +184,7 @@ The following models are used in specific contexts, and are not used in represen
 |----------|---------------|------------|-----------|
 | $.type | always | string | must have a valid MIME type that is also concrete (no wildcards) |
 | $.client | always | object | must not be null |
-| $.client.{app, deviceId, device} | always | string | must not be blank  |
+| $.client.\{app, deviceId, device\} | always | string | must not be blank  |
 | $.representations | when present | array | none (coercion) |
 | $.representations | when present | array | cannot contain more then one representation with the 'primary' relationship |
 | $.representations[*] | when present | object | each representation must be valid according to rules associated with representation type |
@@ -196,7 +196,7 @@ The following models are used in specific contexts, and are not used in represen
 |----------|---------------|------------|-----------|
 | $.type | always | string | must be a valid MIME type that is also concrete (no wildcards) |
 | $.type | the representation type is well-known | string | representation type must belong to the set of types associated with the element type |
-| $.{storage_href, path} | type matches one of the items in "MIME Types Associated With User-Uploaded Assets" list above. | string | storage_href and/or path must not be blank |
+| $.\{storage_href, path\} | type matches one of the items in "MIME Types Associated With User-Uploaded Assets" list above. | string | storage_href and/or path must not be blank |
 | $.linktype | $.type is "application/vnd.adobe.library.link+dcx" | string | must be a valid MIME type that is also concrete (no wildcards) |
 | $.linkurl | $.type is "application/vnd.adobe.library.link+dcx" | string |  must not be a blank string |
 | $.adobestock#trackingdata | type is "application/vnd.adobe.library.link+dcx" | object | must not be null |
@@ -225,12 +225,12 @@ The following models are used in specific contexts, and are not used in represen
 #### application/vnd.adobe.color+json (postLibraryElementPayload.representations\[*\](type=application/vnd.adobe.color+json).color#data)
 | Property Path | Condition | Type | Validation |
 |----------|---------------|------------|-----------|
-| $.mode | always | string | must be in set {"RGB", "CMYK", "Lab", "Gray", "HSB", "RGB.tint", "CMYK.tint", "Lab.tint"} | 
+| $.mode | always | string | must be in set \{"RGB", "CMYK", "Lab", "Gray", "HSB", "RGB.tint", "CMYK.tint", "Lab.tint"\} | 
 | $.value | always | object | must be non-null |
 | $.value | when mode is "RGB" or "RGB.tint" | object | must have keys "r", "g", and "b" |
-| $.value.{r, g, b} | when mode is "RGB" or "RGB.tint" | Double | values must be between 0 and 255, inclusive |
+| $.value.\{r, g, b\} | when mode is "RGB" or "RGB.tint" | Double | values must be between 0 and 255, inclusive |
 | $.value | when mode is "CMYK" or "CMYK.tint" | object | must have keys "c", "m", "y", and "k' |
-| $.value.{c, m, y, k} | when mode is "CMYK" or "CMYK.tint" | Double | values must be between 0 and 100, inclusive |
+| $.value.\{c, m, y, k\} | when mode is "CMYK" or "CMYK.tint" | Double | values must be between 0 and 100, inclusive |
 | $.value | when mode is "Lab" or "Lab.tint" | Double | must have keys "l", "a", and "b" |
 | $.value.l | when mode is "Lab" or "Lab.tint" | Double | must be between 0 and 100, inclusive  |
 | $.value.a | when mode is "Lab" or "Lab.tint" | Double | must be between -128 and 127, inclusive |
@@ -242,9 +242,9 @@ The following models are used in specific contexts, and are not used in represen
 | $.value | when mode is "Gray" | Double | must be between 0 and 100, inclusive |
 | $.profileName | when present | string | must be non-null |
 | $.alpha | when present | Double | must be between 0 and 1, inclusive | 
-| $.type | when present | string | must be in set {"process", "spot", "registration", "none"} |
+| $.type | when present | string | must be in set \{"process", "spot", "registration", "none"\} |
 | $.spotColorName |  when type is "spot" | string | must be non-empty string |
-| $.tint |  when mode is one of {"RGB.tint", "CMYK.tint", "Lab.tint"} | string | must be between 0 and 100, inclusive |
+| $.tint |  when mode is one of \{"RGB.tint", "CMYK.tint", "Lab.tint"\} | string | must be between 0 and 100, inclusive |
 
 #### application/vnd.adobe.colortheme+json (postLibraryElementPayload.representations\[*\](type=application/vnd.adobe.colortheme+json).colortheme#data)
 | Property Path | Condition | Type | Validation |
@@ -262,24 +262,24 @@ The following models are used in specific contexts, and are not used in represen
 #### application/vnd.adobe.gradient+json (postLibraryElementPayload.representations\[*\](type=application/vnd.adobe.gradient+json).gradient#data)
 | Property Path | Condition | Type | Validation |
 |---------------|-----------|------|------------|
-| $.type | always | string | value one of {"linear", "radial"} |
+| $.type | always | string | value one of \{"linear", "radial"\} |
 | $.stops | always | array | must not be null |
 | $.stops[*].color | always | array | must be an array |
 | $.stops[*].color | always | array | must contain at least one color where mode is "RGB" |
 | $.stops[*].color[\*] | always | array | must be a valid application/vnd.adobe.color+json |
-| $.stops[*].phxsInherit | when present | string | must be one of {"foreground", "background"} |
+| $.stops[*].phxsInherit | when present | string | must be one of \{"foreground", "background"\} |
 | $.stops[*].offset | when present | Double | must be between 0 and 1, inclusive |
 | $.stops[*].midpoint | always | Double | none (coercion only) |
 | $.angle | when present | Integer | must be between 0 and 360, inclusive | 
 | $.scale | when present | Double | must be greater than 0 |
 | $.centerPoint | when present | object | must contain the keys "x", and "y" |
-| $.centerPoint.{x, y} | always | Double | values must be between -1 and 1, inclusive |
-| $.interpolation | always | string | must be one of {"linear", "euclidean", "spline"} |
+| $.centerPoint.\{x, y\} | always | Double | values must be between -1 and 1, inclusive |
+| $.interpolation | always | string | must be one of \{"linear", "euclidean", "spline"\} |
 | $.opacities  | when present | array | must be an array |
-| $.opacities[*].{opacity, midpoint, offset} | when present | Double | must be between 0 and 1, inclusive |
+| $.opacities[*].\{opacity, midpoint, offset\} | when present | Double | must be between 0 and 1, inclusive |
 | $.orientation | when present | object | must contain the keys "x1", "x2", "y1", "y2"|
-| $.orientation.{x1, x2, y1, y2} | when present | object | values must be between 0 and 1 |
-| $.direction | when present | string | must be one of {"horizontal", "vertical" } |
+| $.orientation.\{x1, x2, y1, y2\} | when present | object | values must be between 0 and 1 |
+| $.direction | when present | string | must be one of \{"horizontal", "vertical" \} |
 | $.smoothness | when present | Integer | must be between 0 and 4096, inclusive |
 
 #### application/vnd.adobe.gradient.noise+json (postLibraryElementPayload.representations\[*\](type=application/vnd.adobe.gradient.noise+json).gradient#data)
@@ -330,7 +330,7 @@ The following models are used in specific contexts, and are not used in represen
 | Property Path | Condition | Type | Validation |
 |---------------|-----------|------|------------|
 | $ | always | any | all validations from application/vnd.adobe.element.characterstyle+json, except where marked 🚩|
-| $.adbeParaAlignment | when present | string | must be one of {"Alignment.LEFT_ALIGN", "Alignment.CENTER_ALIGN", "Alignment.RIGHT_ALIGN", "Alignment.LEFT_JUSTIFIED", "Alignment.CENTER_JUSTIFIED", "Alignment.RIGHT_JUSTIFIED", "Alignment.FULLY_JUSTIFIED"} | 
+| $.adbeParaAlignment | when present | string | must be one of \{"Alignment.LEFT_ALIGN", "Alignment.CENTER_ALIGN", "Alignment.RIGHT_ALIGN", "Alignment.LEFT_JUSTIFIED", "Alignment.CENTER_JUSTIFIED", "Alignment.RIGHT_JUSTIFIED", "Alignment.FULLY_JUSTIFIED"\} | 
 | $.adbeLeftIndent | when present | object | must be a valid Unit | 
 | $.adbeFirstLineIndent | when present | object | must be a valid Unit | 
 | $.adbeRightIndent | when present | object | must be a valid Unit | 
@@ -346,7 +346,7 @@ The following models are used in specific contexts, and are not used in represen
 | $.adbeDesiredGlyphScaling | when present | number | must be between 50 and 200, inclusive | 
 | $.adbeMaximumGlyphScaling | when present | number | must be between 50 and 200, inclusive | 
 | $.adbeParaAutoLeading | when present | number | must be between 0 and 500, inclusive | 
-| $.adbeSingleWordJustification | when present | string | must be one of {"Justification.FULLY_JUSTIFIED", "Justification.LEFT_ALIGN", "Justification.CENTER_ALIGN", "Justification.RIGHT_ALIGN"} | 
+| $.adbeSingleWordJustification | when present | string | must be one of \{"Justification.FULLY_JUSTIFIED", "Justification.LEFT_ALIGN", "Justification.CENTER_ALIGN", "Justification.RIGHT_ALIGN"\} | 
 
 #### audio/* (see Supported Audio Types) postLibraryElementPayload.representations\[*\](type=application/vnd.adobe.audio+json).audio#data
 | Property Path | Condition | Type | Validation |

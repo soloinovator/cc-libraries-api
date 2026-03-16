@@ -307,7 +307,7 @@ You can access this endpoint by navigating your browser to this URL (be sure to 
 http://localhost:3000/cc-libraries/image?url=https://url-here
 ```
 
-Your browser will receive a base64 string representing the image data. Since we haven't set up an image element to display the image data, you'll need to have a look in your browser's developer tools to see the data. In Chome DevTools for example, you can find the data string in the _Sources_ tab, under _top > localhost:{port} > cc-libraries > image?url=https://url-here_:
+Your browser will receive a base64 string representing the image data. Since we haven't set up an image element to display the image data, you'll need to have a look in your browser's developer tools to see the data. In Chome DevTools for example, you can find the data string in the _Sources_ tab, under _top > localhost:\{port\} > cc-libraries > image?url=https://url-here_:
 
 ```base64
 data:image/jpeg;base64,base64stringhere...

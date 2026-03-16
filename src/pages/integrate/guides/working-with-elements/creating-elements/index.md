@@ -71,7 +71,7 @@ strictly required; the default relationship is "rendition."
 }
 ```
 
-_Figure 1: An example image payload for postLibraryElements (/api/v1/libraries/{{library-id}}/elements/), containing the minimum required properties._
+_Figure 1: An example image payload for postLibraryElements (/api/v1/libraries/\{\{library-id\}\}/elements/), containing the minimum required properties._
 
 ### Asset Types, Usage Patterns, Required Fields by Asset Type
 
@@ -161,7 +161,7 @@ If the image were bigger, we would need to upload the file in chunks (see below)
 
 First, we would upload the thumbnail:
 
-POST /api/v1/libraries/{{library-id}}/representations/content
+POST /api/v1/libraries/\{\{library-id\}\}/representations/content
 
 ```json
 (form-data)
@@ -183,7 +183,7 @@ Response:
 
 Then, we would upload the metadata:
 
-POST /api/v1/libraries/{{library-id}}/elements/
+POST /api/v1/libraries/\{\{library-id\}\}/elements/
 
 ```json
 REQUEST:
@@ -255,7 +255,7 @@ RESPONSE:
 
 Afterwards, if you were to get the element, it might look like this:
 
-GET /api/v1/libraries/{{library-id}}/elements/9e46e07f-f9c1-4380-b199-754c1f6ffb9c?selector=full
+GET /api/v1/libraries/\{\{library-id\}\}/elements/9e46e07f-f9c1-4380-b199-754c1f6ffb9c?selector=full
 
 ```json
 {
