@@ -124,7 +124,7 @@ Content within, and associated with, your integration with be reviewed.
 
 #### Adobe Branding
 
-See our ["Marketing your integration"](../marketing) page for guidelines on using Adobe brand assets and messaging your integration to customers.
+See our ["Marketing your integration"](../marketing/index.md) page for guidelines on using Adobe brand assets and messaging your integration to customers.
 
 #### Inappropriate content
 

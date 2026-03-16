@@ -53,7 +53,7 @@ Make sure the scopes you provide exist in this same comma-delimited (and no spac
 
    - **If you're using the [OAuth 2.0 Playground](https://adobeioruntime.net/api/v1/web/io-solutions/adobe-oauth-playground/oauth.html)** (development only):
      - Use the URI indicated on the Playground page for your Redirect URI and Redirect URI Pattern.
-     - You can find more infomation about the OAuth Playground in ["How to get access tokens with OAuth"](../oauth/).
+     - You can find more infomation about the OAuth Playground in ["How to get access tokens with OAuth"](../oauth/index.md).
    - **If you're implementing OAuth 2.0 in your application**:
      - You can provide your own Redirect URI and Redirect URI Pattern.
      - You can find more infomation about the Adobe OAuth 2.0 in Adobe's [OAuth 2.0 Authentication and Authorization](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/OAuth/OAuth.md) documentation.
