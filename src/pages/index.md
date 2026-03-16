@@ -9,7 +9,7 @@ title: Documentation—Creative Cloud Libraries API
 description: Documentation top page for the Creative Cloud Libraries API. Get quick starts, tutorials, endpoint references, sample code, and more.
 ---
 
-<Hero slots="image, heading, text" background="rgb(64, 34, 138)"/>
+<Superhero slots="image, heading, text" background="rgb(64, 34, 138)"/>
 
 ![Hero image](./illustration.png)
 
