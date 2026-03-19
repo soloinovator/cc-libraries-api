@@ -7,6 +7,8 @@ keywords:
   - Creative Cloud Libraries API
 title: Endpoint references—Creative Cloud Libraries API
 description: The OpenAPI spec for Creative Cloud Libraries API endpoints, parameters, and responses.
+layout: none
 ---
 
-<RedoclyAPIBlock src="/creative-cloud-libraries/docs/openapi.json" />
+<RedoclyAPIBlock src="https://raw.githubusercontent.com/AdobeDocs/cc-libraries-api-spec/main/openapi.json
+" />
