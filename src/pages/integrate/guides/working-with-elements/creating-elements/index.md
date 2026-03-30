@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: Creating Library Elements
+description: Learn the workflows for creating library elements using the Creative Cloud Libraries API.
 ---
 
 # Creating Library Elements

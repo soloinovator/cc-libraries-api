@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: Tutorials
+description: Step-by-step tutorials for getting started with the Creative Cloud Libraries API using cURL and Node.js.
 ---
 
 <DiscoverBlock slots="heading, link, text"/>

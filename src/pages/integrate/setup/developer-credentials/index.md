@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: How to Get Your Developer Credentials
+description: Learn how to obtain your Client ID and Client Secret from the Adobe Developer Console for the Creative Cloud Libraries API.
 ---
 
 # How to get your developer credentials

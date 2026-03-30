@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: Setup
+description: Set up your development environment for the Creative Cloud Libraries API, including developer credentials and OAuth access tokens.
 ---
 
 <DiscoverBlock slots="heading, link, text"/>

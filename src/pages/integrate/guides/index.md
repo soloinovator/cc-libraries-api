@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: Guides
+description: Explore guides for integrating with the Creative Cloud Libraries API, including working with elements, getting data, and configuring events.
 ---
 
 <DiscoverBlock slots="heading, link, text"/>

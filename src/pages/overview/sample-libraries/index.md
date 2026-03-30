@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: Sample Creative Cloud Libraries
+description: Public Creative Cloud Libraries you can follow or copy for testing and experimentation with the Libraries API.
 ---
 
 # Sample Creative Cloud Libraries

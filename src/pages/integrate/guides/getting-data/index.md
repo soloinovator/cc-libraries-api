@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: Getting Library and Element Data
+description: Learn how to read information about a user's stored Creative Cloud Libraries and elements using the Libraries API.
 ---
 
 # Getting Library and Element Data

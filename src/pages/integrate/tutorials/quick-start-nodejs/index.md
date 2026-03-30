@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: "Quick Start: Node.js"
+description: Make your first Creative Cloud Libraries API call from a Node.js script.
 ---
 
 # Quick Start: Node.js

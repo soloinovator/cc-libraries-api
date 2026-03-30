@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: I/O Events Properties
+description: Reference for the properties of Creative Cloud Libraries I/O events, including event types and payload structure.
 ---
 
 # I/O Events Properties

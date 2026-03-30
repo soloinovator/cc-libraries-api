@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: Accessing Different File Formats with Representations
+description: Learn how to access different file format representations of Creative Cloud Library elements using the Libraries API.
 ---
 
 # Accessing Different File Formats with Representations

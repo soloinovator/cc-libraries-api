@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: Supported Library Element Types
+description: Detailed reference for all currently supported library element types in the Creative Cloud Libraries API.
 ---
 
 # Supported Library Element Types

@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: Glossary
+description: Definitions of key terms used in the Creative Cloud Libraries API documentation, including assets, composites, elements, and repositories.
 ---
 
 # Glossary

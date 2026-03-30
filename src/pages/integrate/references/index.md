@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: References
+description: Reference documentation for the Creative Cloud Libraries API, including the API explorer, event properties, and glossary.
 ---
 
 <DiscoverBlock slots="heading, link, text"/>

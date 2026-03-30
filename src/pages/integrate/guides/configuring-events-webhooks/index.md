@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: Configuring Webhooks for Creative Cloud Libraries Events
+description: Learn how to set up and configure your project to listen for Creative Cloud Libraries create, delete, and update events using I/O Events.
 ---
 
 # Configuring Webhooks for Created Cloud Libraries Events

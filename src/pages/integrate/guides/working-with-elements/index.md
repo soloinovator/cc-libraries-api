@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: Introduction to Library Elements
+description: Learn about Creative Cloud Library elements, including colors, fonts, graphics, and their representations.
 ---
 
 # Introduction to Library Elements

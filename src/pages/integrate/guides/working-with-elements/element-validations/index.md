@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: Element Validations
+description: Reference for validation rules applied to element creation payloads in the Creative Cloud Libraries API.
 ---
 
 # Implemented Validations
