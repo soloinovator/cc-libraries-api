@@ -31,7 +31,6 @@
             - [Element validations](/integrate/guides/working-with-elements/element-validations/index.md)
         - [Configuring webhooks for events](/integrate/guides/configuring-events-webhooks/index.md)
     - [References](/integrate/references/index.md)
-        - [API Reference](https://developer-stage.adobe.com/creative-cloud-libraries/docs/api/index.md)
         - [I/O Events Properties](/integrate/references/event-properties/index.md)
         - [Glossary](/integrate/references/glossary/index.md)
     - [Go live](/go-live/index.md)
