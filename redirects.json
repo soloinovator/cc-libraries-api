@@ -1,0 +1,224 @@
+{
+  "total": 54,
+  "offset": 0,
+  "limit": 54,
+  "data": [
+    {
+      "Source": "/creative-cloud-libraries/docs",
+      "Destination": "/creative-cloud-libraries/docs/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/index",
+      "Destination": "/creative-cloud-libraries/docs/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/overview",
+      "Destination": "/creative-cloud-libraries/docs/overview/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/overview/index",
+      "Destination": "/creative-cloud-libraries/docs/overview/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/overview/sample-libraries",
+      "Destination": "/creative-cloud-libraries/docs/overview/sample-libraries/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/overview/sample-libraries/index",
+      "Destination": "/creative-cloud-libraries/docs/overview/sample-libraries/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/overview/product-overview",
+      "Destination": "/creative-cloud-libraries/docs/overview/product-overview/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/overview/product-overview/index",
+      "Destination": "/creative-cloud-libraries/docs/overview/product-overview/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate",
+      "Destination": "/creative-cloud-libraries/docs/integrate/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/tutorials",
+      "Destination": "/creative-cloud-libraries/docs/integrate/tutorials/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/tutorials/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/tutorials/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/tutorials/quick-start-nodejs",
+      "Destination": "/creative-cloud-libraries/docs/integrate/tutorials/quick-start-nodejs/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/tutorials/quick-start-nodejs/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/tutorials/quick-start-nodejs/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/tutorials/quick-start-curl",
+      "Destination": "/creative-cloud-libraries/docs/integrate/tutorials/quick-start-curl/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/tutorials/quick-start-curl/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/tutorials/quick-start-curl/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/setup",
+      "Destination": "/creative-cloud-libraries/docs/integrate/setup/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/setup/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/setup/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/setup/oauth",
+      "Destination": "/creative-cloud-libraries/docs/integrate/setup/oauth/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/setup/oauth/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/setup/oauth/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/setup/developer-credentials",
+      "Destination": "/creative-cloud-libraries/docs/integrate/setup/developer-credentials/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/setup/developer-credentials/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/setup/developer-credentials/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/references",
+      "Destination": "/creative-cloud-libraries/docs/integrate/references/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/references/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/references/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/references/glossary",
+      "Destination": "/creative-cloud-libraries/docs/integrate/references/glossary/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/references/glossary/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/references/glossary/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/references/event-properties",
+      "Destination": "/creative-cloud-libraries/docs/integrate/references/event-properties/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/references/event-properties/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/references/event-properties/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/supported-elements",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/supported-elements/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/supported-elements/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/supported-elements/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/element-validations",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/element-validations/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/element-validations/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/element-validations/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/creating-elements",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/creating-elements/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/creating-elements/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/creating-elements/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/accessing-file-formats",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/accessing-file-formats/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/accessing-file-formats/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/working-with-elements/accessing-file-formats/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/getting-data",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/getting-data/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/getting-data/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/getting-data/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/configuring-events-webhooks",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/configuring-events-webhooks/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/integrate/guides/configuring-events-webhooks/index",
+      "Destination": "/creative-cloud-libraries/docs/integrate/guides/configuring-events-webhooks/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/go-live",
+      "Destination": "/creative-cloud-libraries/docs/go-live/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/go-live/index",
+      "Destination": "/creative-cloud-libraries/docs/go-live/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/go-live/review-process",
+      "Destination": "/creative-cloud-libraries/docs/go-live/review-process/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/go-live/review-process/index",
+      "Destination": "/creative-cloud-libraries/docs/go-live/review-process/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/go-live/marketing",
+      "Destination": "/creative-cloud-libraries/docs/go-live/marketing/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/go-live/marketing/index",
+      "Destination": "/creative-cloud-libraries/docs/go-live/marketing/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/community",
+      "Destination": "/creative-cloud-libraries/docs/community/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/community/index",
+      "Destination": "/creative-cloud-libraries/docs/community/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/api",
+      "Destination": "/creative-cloud-libraries/docs/api/"
+    },
+    {
+      "Source": "/creative-cloud-libraries/docs/api/index",
+      "Destination": "/creative-cloud-libraries/docs/api/"
+    }
+  ],
+  ":type": "sheet"
+}

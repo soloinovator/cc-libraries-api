@@ -15,12 +15,12 @@ Welcome to the Creative Cloud Libraries API! Before jumping straight into the do
 
 <DiscoverBlock slots="link, text"/>
 
-[What are Creative Cloud Libraries?](/overview/product-overview/)
+[What are Creative Cloud Libraries?](/overview/product-overview/index.md)
 
 If you're new to Creative Cloud Libraries, get started by having a look at this service from the user perspective.
 
 <DiscoverBlock slots="link, text"/>
 
-[Sample libraries](/overview/sample-libraries/)
+[Sample libraries](/overview/sample-libraries/index.md)
 
 Need some sample Library content to experiment with? Try these public Libraries.

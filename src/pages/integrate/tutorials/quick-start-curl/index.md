@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: "Quick Start: cURL"
+description: Make your first Creative Cloud Libraries API call using the cURL command-line tool.
 ---
 
 # Quick Start: cURL
@@ -86,4 +88,4 @@ The response will look something like this:
 }
 ```
 
-Always check [the references](/api/) for the full details on any request or response.
+Always check [the references](/api/index.md) for the full details on any request or response.

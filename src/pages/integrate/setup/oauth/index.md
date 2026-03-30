@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: How to Get Access Tokens with OAuth
+description: Learn how to obtain access tokens through OAuth 2.0 for authenticating calls to the Creative Cloud Libraries API.
 ---
 
 # How to get access tokens with OAuth
@@ -48,7 +50,7 @@ Back on the OAuth 2.0 Playground:
 2. From the _Tokens_ tab, all you'll need is the access token.
 3. When the access token expires, you can use the OAuth 2.0 Playground to create a new one.
 
-What you do with your access token will depend on what your next step is. See our [tutorials](../../tutorials/) to learn how to start making calls quickly.
+What you do with your access token will depend on what your next step is. See our [tutorials](../../tutorials/index.md) to learn how to start making calls quickly.
 
 <InlineAlert variant="info" slots="text"/>
 

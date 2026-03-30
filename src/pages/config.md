@@ -1,0 +1,39 @@
+- pathPrefix:
+    - /creative-cloud-libraries/docs/
+
+- home:
+    - [Creative Cloud Libraries](/creative-cloud-libraries.md)
+
+- pages:
+    - [Creative Cloud Libraries API](/index.md)
+    - [Overview](/overview/index.md)
+    - [Integrate](/integrate/index.md)
+    - [API Reference](/api/index.md)
+    - [Go live](/go-live/index.md)
+    - [Community](/community/index.md)
+
+- subPages:
+    - [Overview](/overview/index.md)
+        - [What are Creative Cloud Libraries?](/overview/product-overview/index.md)
+        - [Sample Libraries](/overview/sample-libraries/index.md)
+    - [Setup](/integrate/setup/index.md)
+        - [How to get your developer credentials](/integrate/setup/developer-credentials/index.md)
+        - [How to get access tokens with OAuth](/integrate/setup/oauth/index.md)
+    - [Tutorials](/integrate/tutorials/index.md)
+        - [Quick start with cURL](/integrate/tutorials/quick-start-curl/index.md)
+        - [Quick start with Node.js](/integrate/tutorials/quick-start-nodejs/index.md)
+    - [Guides](/integrate/guides/index.md)
+        - [Getting data](/integrate/guides/getting-data/index.md)
+        - [Working with library elements](/integrate/guides/working-with-elements/index.md)
+            - [Creating elements](/integrate/guides/working-with-elements/creating-elements/index.md)
+            - [Accessing file formats](/integrate/guides/working-with-elements/accessing-file-formats/index.md)
+            - [Supported elements](/integrate/guides/working-with-elements/supported-elements/index.md)
+            - [Element validations](/integrate/guides/working-with-elements/element-validations/index.md)
+        - [Configuring webhooks for events](/integrate/guides/configuring-events-webhooks/index.md)
+    - [References](/integrate/references/index.md)
+        - [I/O Events Properties](/integrate/references/event-properties/index.md)
+        - [Glossary](/integrate/references/glossary/index.md)
+    - [Go live](/go-live/index.md)
+        - [Submission and review](/go-live/review-process/index.md)
+        - [Marketing your integration](/go-live/marketing/index.md)
+    - [Community](/community/index.md)

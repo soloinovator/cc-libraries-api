@@ -5,6 +5,8 @@ keywords:
   - JavaScript
   - CC Libraries API
   - Creative Cloud Libraries API
+title: What Are Creative Cloud Libraries?
+description: An overview of Creative Cloud Libraries and how the Libraries API lets you integrate library access into your products and services.
 ---
 
 # What are Creative Cloud Libraries?
