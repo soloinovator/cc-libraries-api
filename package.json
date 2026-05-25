@@ -23,10 +23,6 @@
     "redirectCheck:stage": "npx --yes --prefer-online github:AdobeDocs/adp-devsite-utils redirectChecker stage --verbose",
     "redirectCheck:prod": "npx --yes --prefer-online github:AdobeDocs/adp-devsite-utils redirectChecker prod --verbose"
   },
-  "author": {
-    "name": "Tim Kim",
-    "url": "https://github.com/timkim"
-  },
   "engines": {
     "node": "^24.11.0"
   }
